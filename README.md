@@ -79,6 +79,23 @@ Create these under **Settings → Custom data → Products**:
 - Add your store policies (Settings → Policies) — linked in the footer.
 - Run **Online Store → Preferences** for SEO title/description + social share image.
 
----
+## ⚠️ Before editing theme code
+Always **duplicate the theme first** (Online Store → Themes → ⋯ → Duplicate) and edit the copy, never the live theme. This gives you a safe rollback if anything breaks. For normal setup you should not need to touch code — use the theme editor (settings & sections).
 
-Need help? Email **blackdynamic.corporate@gmail.com** with your store URL and a description.
+## FAQ
+**Do I need any apps?** No — KINETIK works without apps. For subscriptions, install a selling-plan app (e.g. Shopify Subscriptions). For product reviews, install any review app (Judge.me / Loox / Stamped) and drop its block into the product page's app-block area.
+
+**Why don't I see the demo images/content after install?** Demo content does not transfer on install (a Shopify rule). Add your own products, collections and images, then configure each section in the theme editor.
+
+**How do I change fonts/colors?** Theme settings → Typography and Colors. All fonts come from Shopify's font library; pick any and bold/italic load automatically.
+
+**The mega-menu cards are empty.** Set a **collection image** on each collection (Collections → … → Image) and build the Shop menu with sub-collections as children.
+
+**How do I enable Subscribe & Save?** Install a selling-plan app, create a plan group, and add it to products — the product page then shows the one-time vs subscribe selector automatically.
+
+**Can I sell in multiple currencies/languages?** Yes. Enable Shopify Markets; the header/footer show country and language selectors automatically.
+
+## Support & response policy
+- **Email:** blackdynamic.corporate@gmail.com — include your store URL and a clear description (screenshots help).
+- **Response time:** within 2 business days; critical bugs are prioritized.
+- Please confirm the issue is theme-related (not an app or custom code) before reaching out.
